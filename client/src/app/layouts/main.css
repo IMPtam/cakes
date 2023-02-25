@@ -1,0 +1,165 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(238, 231, 231);
+    font-family: Courier;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+._container {
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+._ibg {
+    position: relative;
+}
+._ibg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+/*----ШАПКА------------------------------------------------------*/
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+.header__container {
+    min-height: 90px;
+    align-items: center;
+}
+
+/* --Page---------------------------------------------------- */
+.page {
+    flex: 1 1 auto;
+}
+
+/* ---Нижняя шапка----------------------------------------------------- */
+.footer {
+    font-size: 18px;
+    line-height: 120%;
+    color: black;
+}
+
+/* -----Main ---------------------------------------------------- */
+
+.main-block {
+    position: relative;
+}
+
+.main-block__body {
+    padding: 200px 0px 100px 0px;
+    position: relative;
+    z-index: 2;
+    max-width: 500px;
+}
+.main-block__body > *:not(:last-child) {
+    margin: 0px 0px 20px 0px;
+}
+.main-block__title {
+    font-size: 48px;
+    line-height: 130%;
+    font-weight: 800;
+}
+.main-block__text {
+    font-size: 18px;
+    line-height: 120%;
+}
+.main-block__buton {
+    background: orange;
+    border-radius: 37px;
+    display: inline-flex;
+    min-height: 48px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    color: inherit;
+}
+.main-block__image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* ----------Products--------------------------------------------------*/
+.page__products {
+    position: relative;
+}
+.products__body {
+    padding: 20px 0px 20px 0px;
+    position: relative;
+    z-index: 2;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products__title {
+    color: black;
+    font-size: 40px;
+    margin: 10px 0px 25px 0px;
+}
+.products__subtitle {
+    color: black;
+    font-size: 20px;
+    max-width: 700px;
+    line-height: 140%;
+}
+.catalog__item {
+    color: black;
+    font-size: 20px;
+}
+.products__image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+}
