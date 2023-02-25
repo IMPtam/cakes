@@ -1,0 +1,6 @@
+{
+  "port": 8080,
+  "mongoUri": "mongodb://u50v5kmuow5qrl5gjcsi:emGQG7YosgxbP5MhNYpK@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/br7vqkzs5t8tpps?replicaSet=rs0",
+  "accessSecret": "secret pass IMPus",
+  "refreshSecret": "secret key KALAM"
+}
